@@ -63,7 +63,7 @@ const App = ({ messages }) => {
         </div>
         <div className="block">
           <div className="img">
-            <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_800,h_600/https://etmerci.fr/wp-content/uploads/2020/03/robot-steve.gif" alt="" />
+            <img src="https://integralads.com/wp-content/uploads/2020/03/Wombles_1000px.gif" alt="" />
           </div>
           <div className="horos">
             Country
@@ -77,9 +77,9 @@ const App = ({ messages }) => {
             {messages.map((mess) => (
               <div className="messageContainer">
                 <div className="botChatImg">
-                  {mess.name === 'horos' ? (<img src="https://i.pinimg.com/originals/0c/67/5a/0c675a8e1061478d2b7b21b330093444.gif" alt="" />) : null }
-                  {mess.name === 'hours' ? (<img src="https://i.pinimg.com/originals/7d/9b/1d/7d9b1d662b28cd365b33a01a3d0288e1.gif" alt="" />) : null }
-                  {mess.name === 'country' ? (<img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_800,h_600/https://etmerci.fr/wp-content/uploads/2020/03/robot-steve.gif" alt="" />) : null }
+                  {mess.name === 'horos' ? (<img src="https://i.pinimg.com/originals/0c/67/5a/0c675a8e1061478d2b7b21b330093444.gif" alt="" />) : null}
+                  {mess.name === 'hours' ? (<img src="https://i.pinimg.com/originals/7d/9b/1d/7d9b1d662b28cd365b33a01a3d0288e1.gif" alt="" />) : null}
+                  {mess.name === 'country' ? (<img src="https://integralads.com/wp-content/uploads/2020/03/Wombles_1000px.gif" alt="" />) : null}
                 </div>
                 <div className={mess.sender} key={Math.random()}>
                   <div>
@@ -89,7 +89,7 @@ const App = ({ messages }) => {
                   </div>
                 </div>
                 <div className="botChatImg">
-                  {mess.name === 'You' ? (<img src="https://cdn.dribbble.com/users/253392/screenshots/3008253/1.gif" alt="" />) : null }
+                  {mess.name === 'You' ? (<img src="https://cdn.dribbble.com/users/253392/screenshots/3008253/1.gif" alt="" />) : null}
                 </div>
               </div>
             ))}
